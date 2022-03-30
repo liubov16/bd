@@ -1,0 +1,38 @@
+.container {
+	@include lg {
+		max-width: 1024px;
+	}
+	@include md {
+		max-width: 768px;
+	}
+	@include sm {
+		max-width: 640px;
+	}
+	@include lt {
+		max-width: 520px;
+	}
+	@include mn {
+		max-width: 414px;
+	}
+	@include es {
+		max-width: 360px;
+	}
+}
+
+.main__h1 {
+	@include mn {
+		font-size: 30px !important;
+	}
+	@include es {
+		font-size: 30px !important;
+	}
+}
+
+.-end {
+	@include mn {
+		font-size: 20px !important;
+	}
+	@include es {
+		font-size: 20px !important;
+	}
+}
